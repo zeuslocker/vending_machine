@@ -1,5 +1,7 @@
 require "bundler/setup"
-require "test_task"
+require "printers/print_product_list"
+require "inserters/insert_money"
+require "inserters/insert_product_id"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
